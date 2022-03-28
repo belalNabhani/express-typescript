@@ -1,3 +1,33 @@
-/.env
-/node_modules
-/yarn-error.log
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# vscode settings
+.vscode/
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+.env
+yarn.lock
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+#secrets
+.env
